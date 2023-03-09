@@ -282,31 +282,3 @@ A: For `vscode`, please install the recommended plug-in of the project or manual
 Q: Why doesn't the frontend have a typewriter effect?
 
 A: One possible reason is that after Nginx reverse proxying, buffering is turned on, and Nginx will try to buffer a certain amount of data from the backend before sending it to the browser. Please try adding `proxy_buffering off;` after the reverse proxy parameter and then reloading Nginx. Other web server configurations are similar.
-
-## Contributing
-
-Please read the [Contributing Guidelines](./CONTRIBUTING.en.md) before contributing.
-
-Thanks to all the contributors!
-
-<a href="https://github.com/Chanzhaoyu/chatgpt-web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Chanzhaoyu/chatgpt-web" />
-</a>
-
-## Sponsorship
-
-If you find this project helpful and circumstances permit, you can give me a little support. Thank you very much for your support~
-
-<div style="display: flex; gap: 20px;">
-	<div style="text-align: center">
-		<img style="max-width: 100%" src="./docs/wechat.png" alt="WeChat" />
-		<p>WeChat Pay</p>
-	</div>
-	<div style="text-align: center">
-		<img style="max-width: 100%" src="./docs/alipay.png" alt="Alipay" />
-		<p>Alipay</p>
-	</div>
-</div>
-
-## License
-MIT © [ChenZhaoYu](./license)
